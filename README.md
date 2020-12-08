@@ -16,19 +16,33 @@ The business goal is to develop an application which is able to recognize gestur
 Data is publicly available on ksaggle and you can find it also in my respiratory
 # 6.0  Table of content
 1.0 Abstract
+
 2.0 Introduction
+
 3.0 Problem statement
+
 4.0 Business goal
+
 5.0 Data source
+
 6.0 Table of content
+
 7.0 Looking at the first five rows of my train and test data
+
 8.0 Data Augmentation
+
 9.0 Building my CNN model
+
 10.0 Classification report
+
 11.0 Confusion matrix
+
 12.0 Predicting labels
+
 13.0 Limitation of convolutional neural networks
+
 14.0 Future work
+
 14.0 References
 
 
