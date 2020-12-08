@@ -88,6 +88,21 @@ It helps usin identifying the misclassified classes in more details
 
 ![Capture72](https://user-images.githubusercontent.com/63025220/101524445-eca36000-3957-11eb-9323-c79845a5dd88.PNG)
 
+# Limitation of convolutional neural network
+CNN do not encode the position and orientation of object
+Lack of ability to be spatially invariant  to the input data
+# References
+
+Leban, J. (2020, May 22). Image recognition with Machine Learning on Python, Convolutional Neural Network. Retrieved from https://towardsdatascience.com/image-recognition-with-machine-learning-on-python-convolutional-neural-network-363073020588
+
+Rao, A. (2020, July 20). Convolutional Neural Network Tutorial (CNN) – Developing An Image Classifier In Python Using TensorFlow. Retrieved from https://www.edureka.co/blog/convolutional-neural-network/
+
+Sharma, A. (2017, December 5th). Convolutional Neural Networks in Python with Keras. Retrieved from https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
+
+Sumit, S. H. (2018, July 21). Drawbacks of Convolutional Neural Networks. Retrieved from https://sakhawathsumit.github.io/sumit.log/2018/07/21/drawbacks-of-convolutional-neural-networks.html
+
+
+
 
 
 
