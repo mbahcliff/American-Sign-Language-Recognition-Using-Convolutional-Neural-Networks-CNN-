@@ -1,19 +1,19 @@
 # American-Sign-Language-Recognition-Using-Convolutional-Neural-Networks-CNN-
 # 1.0 Abstract
-This project has to do with applying Covolutional Neural aNetworks to American Sign Language(ASL). In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual imagery. It has been one of the most influential in the field innovation in the field of computer vision. 
+This project has to do with applying Covolutional Neural Networks (CNN) to American Sign Language(ASL). In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual images. It has been one of the most influential innovation in the field of computer vision. 
 # 2.0 Introduction
-Sign langauge are languages that use manual communication to convey meaning . This can include simultaneously employing hand gestures, movement, orientation of the fingers, arms or body and facial expression to convey information
+Sign langauge is a language that uses manual communication to convey meaning . This can include simultaneously employing hand gestures, movements, orientation of the fingers, arms or body and facial expression to convey information
 American Sign Language (ASL) is a complete natural language that has the same linguistic properties as spoken languages. ASL is expressed by movements of the hands and face. It is the primary language of many North Americans who are deaf and is used by many hearing people as well.
 
 
 ![amer_sign2](https://user-images.githubusercontent.com/63025220/101502360-db9a2500-393e-11eb-99ad-582cd0d25cd5.png)
 
 # 3.0 Problem statement
-Communication is an important part of our lives. Deaf and dumb people being unable to speak and listen, experience a lot of problems while communicating with normal people. There are many ways by which people with these disabilities try to communicate. One of the most prominent ways is the use of sign language, i.e. hand gestures. It is usaully develop for normal people to understand this sign language without an interpreter. That's why it is necessary to develop an application for recognizing gestures and actions of sign language so that deaf and dumb people can communicate easily with even those who don’t understand sign language. The objective of this work is to take a step in breaking the barrier in communication between the normal people and deaf and dumb people with the help of sign language.
+Communication is an important part of our lives. Deaf and dumb people being unable to speak and listen, experience a lot of problems while communicating with normal people. There are many ways by which people with these disabilities try to communicate. One of the most prominent ways is the use of sign language, i.e. hand gestures. It is usaully difficult for normal people to understand this sign language without an interpreter. That's why it is necessary to develop an application for recognizing gestures and actions of sign language so that deaf and dumb people can communicate easily with even those who don’t understand sign language. The objective of this work is to take a step in breaking the barrier in communication between the normal people and deaf and dumb people with the help of sign language.
 # 4.0 Business goal
 The business goal is to develop an application which is able to recognize gestures and actions of sign langauges and interprets them to normal people. This way normal people can effectively communicate with people who are deaf and dumb without any need to go to a sign lsanguage school
 # 5.0 Data source
-Data is publicly available on ksaggle and you can find it also in my respiratory
+Data is publicly available on kaggle and you can find it also in my respiratory
 # 6.0  Table of content
 1.0 Abstract
 
@@ -56,7 +56,7 @@ Data is publicly available on ksaggle and you can find it also in my respiratory
 ![Capture52](https://user-images.githubusercontent.com/63025220/101510305-c249a680-3947-11eb-9b81-2f3e0eef3ade.PNG)
 
 # 8.0 Data Augmentation
-It is a technique used to to artificially expand the the size of a training dataset by creating modified version of image in the dataset. 
+It is a technique used to artificially expand the the size of a training dataset by creating modified version of image in the dataset. 
 In order to avoid overfitting problem, we need to expand artificially our dataset. We can make your existing dataset even larger. The idea is to alter the training data with small transformations to reproduce the variations.
 
 # 8.0 Data Visualization
@@ -68,7 +68,7 @@ In order to avoid overfitting problem, we need to expand artificially our datase
 ![Capture54](https://user-images.githubusercontent.com/63025220/101513392-1c4b6b80-394a-11eb-991b-b95ce2ca7504.PNG)
 
 
-# 9.0  Bulind my CNN model
+# 9.0  Building the CNN model
 The model consist of :
 
 Three convolution layer each followed bt MaxPooling for better feature capture
@@ -123,8 +123,11 @@ It helps usin identifying the misclassified classes in more details
 
 # 13.0 Limitation of convolutional neural network
 CNN do not encode the position and orientation of object
+
 Lack of ability to be spatially invariant  to the input data
 # 14.0 Future work
+
+My next work is video recognition using CNN
 
 # 15.0 References
 
