@@ -33,3 +33,61 @@ In order to avoid overfitting problem, we need to expand artificially our datase
 ## Preview of images in the train data set
 
 ![Capture54](https://user-images.githubusercontent.com/63025220/101513392-1c4b6b80-394a-11eb-991b-b95ce2ca7504.PNG)
+
+
+# Bulind my CNN model
+The model consist of :
+
+Three convolution layer each followed bt MaxPooling for better feature capture
+A dense layer of 512 units
+The output layer with 24 units for 24 different classes
+## Convolution layers
+
+Conv layer 1 -- UNITS - 128 KERNEL SIZE - 5 * 5 STRIDE LENGTH - 1 ACTIVATION - ReLu
+
+Conv layer 2 -- UNITS - 64 KERNEL SIZE - 3 * 3 STRIDE LENGTH - 1 ACTIVATION - ReLu
+
+Conv layer 3 -- UNITS - 32 KERNEL SIZE - 2 * 2 STRIDE LENGTH - 1 ACTIVATION - ReLu
+
+MaxPool layer 1 -- MAX POOL WINDOW - 3 * 3 STRIDE - 2
+
+MaxPool layer 2 -- MAX POOL WINDOW - 2 * 2 STRIDE - 2
+
+MaxPool layer 3 -- MAX POOL WINDOW - 2 * 2 STRIDE - 2
+
+## Dense and output layers
+
+![Capture55](https://user-images.githubusercontent.com/63025220/101522431-350d4e80-3955-11eb-97e8-d6f19f295928.PNG)
+
+## Training the model
+
+### The model trains for eporchs = 35
+
+![Capture56](https://user-images.githubusercontent.com/63025220/101522691-933a3180-3955-11eb-8fcc-44af34f072a8.PNG)
+
+# Model evaluation on test set
+
+![Capture58](https://user-images.githubusercontent.com/63025220/101523120-28d5c100-3956-11eb-8190-a32d124efe11.PNG)
+
+# Plots of the accuracy and loss between trainig and validation data
+
+![Capture59](https://user-images.githubusercontent.com/63025220/101523572-c7fab880-3956-11eb-92f4-0885b6a4cd30.PNG)
+
+# Classification report
+
+It helps usin identifying the misclassified classes in more details
+
+![Capture70](https://user-images.githubusercontent.com/63025220/101524006-6129cf00-3957-11eb-9c37-1746d0eb48bf.PNG)
+
+# Confusion matrix
+
+![Capture71](https://user-images.githubusercontent.com/63025220/101524194-a0582000-3957-11eb-9563-3c8e6b0e5b36.PNG)
+
+# Predicting labels
+## correct labels
+
+![Capture72](https://user-images.githubusercontent.com/63025220/101524445-eca36000-3957-11eb-9323-c79845a5dd88.PNG)
+
+
+
+
