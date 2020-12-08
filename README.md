@@ -14,7 +14,9 @@ Communication is an important part of our lives. Deaf and dumb people being unab
 The business goal is to develop an application which is able to recognize gestures and actions of sign langauges and interprets them to normal people. This way normal people can effectively communicate with people who are deaf and dumb without any need to go to a sign lsanguage school
 # 5.0 Data source
 Data is publicly available on kaggle and you can find it also in my respiratory
-# 6.0  Table of content
+# 6.0 Software used
+## Python
+# 7.0  Table of content
 1.0 Abstract
 
 2.0 Introduction
@@ -25,28 +27,32 @@ Data is publicly available on kaggle and you can find it also in my respiratory
 
 5.0 Data source
 
-6.0 Table of content
+6.0 Software used
 
-7.0 Looking at the first five rows of my train and test data
+7.0 Table of content
 
-8.0 Data Augmentation
+8.0 Looking at the first five rows of my train and test data
 
-9.0 Building my CNN model
+9.0 Data Augmentation
 
-10.0 Classification report
+10.0 Data visualizaton
 
-11.0 Confusion matrix
+11.0 Building my CNN model
 
-12.0 Predicting labels
+12.0 Classification report
 
-13.0 Limitation of convolutional neural networks
+13.0 Confusion matrix
 
-14.0 Future work
+14.0 Predicting labels
 
-14.0 References
+15.0 Limitation of convolutional neural networks
+
+16.0 Future work
+
+17.0 References
 
 
-# 7.0 Looking at the first five rows of my train and test data respectively
+# 8.0 Looking at the first five rows of my train and test data respectively
 ## Train data
 
 ![Capture51](https://user-images.githubusercontent.com/63025220/101510080-75fe6680-3947-11eb-97b4-c6ae9e81cf28.PNG)
@@ -55,11 +61,11 @@ Data is publicly available on kaggle and you can find it also in my respiratory
 
 ![Capture52](https://user-images.githubusercontent.com/63025220/101510305-c249a680-3947-11eb-9b81-2f3e0eef3ade.PNG)
 
-# 8.0 Data Augmentation
+# 9.0 Data Augmentation
 It is a technique used to artificially expand the the size of a training dataset by creating modified version of image in the dataset. 
 In order to avoid overfitting problem, we need to expand artificially our dataset. We can make your existing dataset even larger. The idea is to alter the training data with small transformations to reproduce the variations.
 
-# 8.0 Data Visualization
+# 10.0 Data Visualization
 ## Label count
 
 ![Capture53](https://user-images.githubusercontent.com/63025220/101513135-d393b280-3949-11eb-8614-1cd7e3be306a.PNG)
@@ -68,7 +74,7 @@ In order to avoid overfitting problem, we need to expand artificially our datase
 ![Capture54](https://user-images.githubusercontent.com/63025220/101513392-1c4b6b80-394a-11eb-991b-b95ce2ca7504.PNG)
 
 
-# 9.0  Building the CNN model
+# 11.0  Building the CNN model
 The model consist of :
 
 Three convolution layer each followed bt MaxPooling for better feature capture
@@ -106,30 +112,30 @@ MaxPool layer 3 -- MAX POOL WINDOW - 2 * 2 STRIDE - 2
 
 ![Capture59](https://user-images.githubusercontent.com/63025220/101523572-c7fab880-3956-11eb-92f4-0885b6a4cd30.PNG)
 
-# 10.0 Classification report
+# 12.0 Classification report
 
 It helps usin identifying the misclassified classes in more details
 
 ![Capture70](https://user-images.githubusercontent.com/63025220/101524006-6129cf00-3957-11eb-9c37-1746d0eb48bf.PNG)
 
-# 11.0 Confusion matrix
+# 13.0 Confusion matrix
 
 ![Capture71](https://user-images.githubusercontent.com/63025220/101524194-a0582000-3957-11eb-9563-3c8e6b0e5b36.PNG)
 
-# 12.0 Predicting labels
+# 14.0 Predicting labels
 ## correct labels
 
 ![Capture72](https://user-images.githubusercontent.com/63025220/101524445-eca36000-3957-11eb-9323-c79845a5dd88.PNG)
 
-# 13.0 Limitation of convolutional neural network
+# 15.0 Limitation of convolutional neural network
 CNN do not encode the position and orientation of object
 
 Lack of ability to be spatially invariant  to the input data
-# 14.0 Future work
+# 16.0 Future work
 
 My next work is video recognition using CNN
 
-# 15.0 References
+# 17.0 References
 
 Leban, J. (2020, May 22). Image recognition with Machine Learning on Python, Convolutional Neural Network. Retrieved from https://towardsdatascience.com/image-recognition-with-machine-learning-on-python-convolutional-neural-network-363073020588
 
