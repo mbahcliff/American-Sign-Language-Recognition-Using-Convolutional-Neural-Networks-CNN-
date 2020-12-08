@@ -14,7 +14,7 @@ Communication is an important part of our lives. Deaf and dumb people being unab
 The business goal is to develop an application which is able to recognize gestures and actions of sign langauges and interprets them to normal people. This way normal people can effectively communicate with people who are deaf and dumb without any need to go to a sign lsanguage school
 # 5.0 Data source
 Data is publicly available on ksaggle and you can find it also in my respiratory
-#6.0  Table of content
+# 6.0  Table of content
 1.0 Abstract
 2.0 Introduction
 3.0 Problem statement
